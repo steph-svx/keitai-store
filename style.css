@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
- background-image: url("images/materialdictionary186_10.jpg");
+ background-image: url("images/materialdictionary206_24b.jpg");
  background-color: rgba(204, 255, 255, 0.315);
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -244,17 +244,50 @@ input:focus{
 .contact{
     text-align: center;
     position:relative;
-    max-width: 80%;
+    max-width: 70%;
+    font-size: 17px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 }
+.contact h3{
+    padding-top: 100px;
+}
 .contact p{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .contact .btn{
     margin: 10px;
+    margin-bottom: 100px;
+}
+.contact h1{
+    padding: 200px;
+}
+.centered{
+    max-width: 60%;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.centered hr{
+    border: none;
+    background: #041743;
+    height: 1px;
+    margin: 10px 0;
+}
+.centered h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.centered h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.centered p{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 @media only screen and (max-width: 800px){
     nav ul{
@@ -297,4 +330,7 @@ input:focus{
         font-size: 26px;
         line-height: 32px;
     }
+    .contact h1{
+    padding: 50px;
+}
 }
